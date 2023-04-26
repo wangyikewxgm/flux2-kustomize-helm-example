@@ -3,9 +3,9 @@
   "userGivenName": "example",
   "destNamespace": "codefresh",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": ".",
+  "srcPath": "./kustomize-guestbook",
   "srcRepoURL": "https://github.com/wangyikewxgm/argocd-example-apps.git",
-  "srcTargetRevision": "",
+  "srcTargetRevision": "HEAD",
   "labels": {
     "codefresh_io_entity": "git-source",
     "codefresh_io_internal": "false"
