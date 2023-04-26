@@ -1,0 +1,16 @@
+{
+  "appName": "argo-cd-example",
+  "userGivenName": "argo-cd-example",
+  "destNamespace": "codefresh",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": ".kustomize-guestbook/",
+  "srcRepoURL": "https://github.com/wangyikewxgm/flux2-kustomize-helm-example.git",
+  "srcTargetRevision": "main",
+  "labels": {
+    "codefresh_io_entity": "git-source",
+    "codefresh_io_internal": "false"
+  },
+  "annotations": null,
+  "exclude": "",
+  "include": ""
+}
